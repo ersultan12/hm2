@@ -8,7 +8,7 @@
     font-family: Times;
 }
 .start{
-    background-color: #F4F4F4;
+    background-color: rgba(244, 244, 244, 0.7);
     width: 100%;
     height: 54px;
     padding-top: 26px;
@@ -16,6 +16,7 @@
     position: fixed;
     top: 0;
     z-index: 2;
+    backdrop-filter: blur(3px);
 }
 .news{
     margin-left: 76px;
@@ -34,12 +35,14 @@
 }
 .zhabysqaq{
     position: sticky;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     width: calc(100% - 104px - 74px - 274px);
     height: 380px;
     top: 100px;
     margin-left: 104px;
+    padding: 27px 0 0 27px;
 }
+
 .kartochka{
     width: 274px;
     height: 1200px;
